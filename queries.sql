@@ -1,0 +1,8 @@
+CREATE DATABASE tododatabase;
+
+CREATE TABLE todotable
+(
+    id SERIAL PRIMARY KEY,
+    description VARCHAR(255),
+    date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
